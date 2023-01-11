@@ -11,7 +11,7 @@ First of all, the concept of bootstrapping will be mentioned. Bootstrapping is r
 
 In boosting-based algorithms, new models are created by optimizing the created model. Each created model/classifier tries to increase its predictive power by compensating for the weaknesses of the previous models. Unlike the bagging methods, the trees created here are dependent on each other. There are several methods that are based on boosting. Examples of these are AdaBoost(Adaptive Boosting), GBM(Gradient Boosting Machines, XGBoost, LightGBM.These methods are based on the idea of ​​combining weak classifiers to create a strong classifier.  
 
-![image.png](attachment:656908e8-7f7d-43d1-ba04-940c1dd80a86.png)  
+![img](https://user-images.githubusercontent.com/78654212/211913815-01013e04-1d4d-4a25-b206-f0a2a553e817.JPG)
 https://www.pluralsight.com/guides/ensemble-methods:-bagging-versus-boosting
 
 **Advantages and Disadvantages of Bagging and Boosting**
@@ -40,5 +40,3 @@ https://www.educba.com/bagging-and-boosting/
 # Business Problem and Dataset  
 
 In this project, a machine learning model has been developed to predict house prices. In the dataset, there are various features of each house and the prices of the houses.  
-
-The descriptions for the columns of the dataset are in the data_description.txt file.
